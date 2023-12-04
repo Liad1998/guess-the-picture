@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Guessing Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="row">
+    <div class="tooltip1">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is one</div>
+    </div>
+    <div class="tooltip2">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is two</div>
+    </div>
+    <div class="tooltip3">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is three</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="tooltip4">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is four</div>
+    </div>
+    <div class="tooltip5">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is five</div>
+    </div>
+    <div class="tooltip6">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is six</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="tooltip7">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is seven</div>
+    </div>
+    <div class="tooltip8">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is eight</div>
+    </div>
+    <div class="tooltip9">
+      <img src="guess.jpg">
+      <div class="tooltiptext">This is nine</div>
+    </div>
+  </div>
+  <p>Please enter the number of the picture in text: ('one','two','three','four','five','six','seven','eight','nine')</p>
+  <input type="text" id="guess" />
+  <button id=submit onclick="myFunction('guess')">Submit</button>
+  <button id=start><a href="index.html"> New game</a></button>
+  <dialog>
+    <button autofocus>Close</button>
+    <p>You won!</p>
+    <img src="clb.jpg" id="unique" />
+  </dialog>
+  <button>Click here to show the image only if you win!</button>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
